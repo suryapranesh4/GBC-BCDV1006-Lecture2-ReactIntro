@@ -2,12 +2,34 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Greeter from './Greeter';
+import LikeButton from './LikeButton';
 import reportWebVitals from './reportWebVitals';
+
+const Display = () => {
+  const numberOfLikeButtons = 10;
+  return(
+    [...Array(numberOfLikeButtons)].map((button)=>{
+      return <button>Like</button>
+    })
+  )
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <>
+      <div>
+        <span>Exercise 1-5</span>
+        <Greeter />
+        <LikeButton/>
+        <hr/>
+      </div>
+      <div>
+        <div>Exercise 6 / Challenge </div>
+        <Display/>
+      </div>
+    </>
   </React.StrictMode>
 );
 
