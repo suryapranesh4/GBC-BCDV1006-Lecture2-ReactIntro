@@ -1,11 +1,10 @@
-George Brown College - Blockchain Development T175
+# React-CRA-Basic
 
-BCDV1021 - Frontend || FullStack - 1
-
-Lecture 2 - React Intro
+A basic react application creating using Create-React-App boilerplate package.
 
 
-  Git Clone : https://github.com/suryapranesh4/GBC-BCDV1006-Lecture2-ReactIntro.git <br />
-  cd my-app <br />
+#### Instructions :
+  git clone https://github.com/suryapranesh4/React-CRA-Basic.git <br />
+  cd React-CRA-Basic <br />
   npm install <br />
   npm start
